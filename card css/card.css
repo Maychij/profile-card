@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image:url(/csscardbiz.jpg) ;
+  background-size: cover;
+}
+.wrapper,
+.wrapper .img-area{
+  background: #ecf0f3;
+}
+
+.wrapper{
+  position: relative;
+  height: auto;
+  width: 278px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+  .flex-container {
+    display: flex;
+    align-items: flex;
+    flex-direction: row
+  }
+  .social{
+  margin: 0.5em;
+		justify-content: space-between;
+    width: 80px;
+    height: 50px;
+    padding: 0px 20px 20px 10px;
+    font-size: 8px;
+  }
+.wrapper .img-area{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/bgcard.png);
+}
+.img-area .inner-area{
+  height: calc(100% - 25px);
+  width: calc(100% - 25px);
+  border-radius: 50%;
+}
+.inner-area img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.wrapper .name{
+  font-size: 10px;
+  font-weight: 500;
+  color: #31344b;
+  margin: 10px 0 5px 0;
+}
+.wrapper .about{
+  color: #44476a;
+  font-weight: 300;
+  font-size: 10px;
+}
