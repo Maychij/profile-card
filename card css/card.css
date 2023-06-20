@@ -10,14 +10,13 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-image:url(/csscardbiz.jpg) ;
+  background-image:url(./csscardbiz.jpg) ;
   background-size: cover;
 }
 .wrapper,
 .wrapper .img-area{
   background: #ecf0f3;
 }
-
 .wrapper{
   position: relative;
   height: auto;
@@ -49,7 +48,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/bgcard.png);
+  background-image: url(./bgcard.png);
 }
 .img-area .inner-area{
   height: calc(100% - 25px);
